@@ -1,16 +1,15 @@
 # 🏦 Aave V2 DeFi Wallet Credit Scorer
 
-This project builds a machine learning-inspired rule-based model that assigns a **credit score (0–1000)** to wallets interacting with the Aave V2 protocol. Higher scores represent healthy, responsible behavior; lower scores flag exploitative, bot-like, or risky usage.
+This is a machine-learning-inspired rule-based model that assigns a **credit score (0–1000)** to wallets that interact with the Aave V2 protocol. Higher scores signify healthy, responsible behavior; low scores beg the recognition of exploitative, bot-like, or risky usage.
 
 ---
 
-## ✅ Features
+## ✅ Features 
 
-- 📊 **Behavioral feature engineering** from raw transaction data
-- 🧠 **Scoring model** using heuristics and statistical signals
+- 📊 Behavioral feature engineering from raw transaction data
+- 🧠 Scoring model, heuristic, and statistical signals
 - 🧼 One-step CLI pipeline: `wallet_credit_scorer.py`
-- 📁 Designed to scale and extend to DeFi protocols
-
+- 📁 Designed to scale and extend to various DeFi protocols
 ---
 
 ## ⚙️ Architecture
